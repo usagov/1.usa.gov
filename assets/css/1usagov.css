@@ -42,26 +42,25 @@ main {
   grid-template-rows: auto auto auto auto;
   grid-gap: 0px;
   background-color: #fff;
-  /*width: 100%;*/
   padding: 0;
 }
 
 .grid-container>div.alert, .grid-container>div.alertSp {
   background-color: #f1f1f1;
   text-align: center;
-  padding: 40px 0px 40px 40px;
+  padding: 40px;
 }
 
 .grid-container>div.clicked, .grid-container>div.clickedSp  {
   background-color: #fff;
   text-align: center;
-  padding: 40px 0px 40px 40px;
+  padding: 40px;
 }
 
 .grid-container>div.created, .grid-container>div.createdSp {
   background-color: #e8f0f7;
   text-align: center;
-  padding: 40px 0px 40px 40px;
+  padding: 40px;
   margin-bottom: 10px;
 }
 
@@ -108,7 +107,7 @@ p {
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
-  margin: 0px 17px 10px 0;
+  margin: 0px 7px 10px 0;
 }
 
 ol li {
@@ -128,7 +127,6 @@ div.alert p, div.alertSp p {
   margin-right: auto;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", "sans-serif";
   text-align: center;
-  padding-right: 30px;
 }
 
 .clkimg {
@@ -286,7 +284,6 @@ ul li:after, ol li:after {
     font-size: 130%;
     margin: 30px auto 10px auto;
     text-align: left;
-    padding-right: 30px;
   }
 
   h1.tgl{
@@ -295,7 +292,6 @@ ul li:after, ol li:after {
 
   div.alert p, div.alertSp p {
     font-size: 110%;
-    padding-right: 30px;
   }
 
   p {
