@@ -1,6 +1,9 @@
 
 /* CSS Document for Interstitial Page for 1.usa.gov */
 
+* {
+    -webkit-overflow-scrolling: touch;
+}
 html,body
 {
     width: 100%;
